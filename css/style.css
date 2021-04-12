@@ -1,0 +1,605 @@
+body, main{
+    background-color: rgb(20, 29, 29);
+    margin: 0px;
+    padding: 0px;   
+}
+/* ---------------------------header-------------------------- */
+.navbar{
+    background-color: orangered;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+}
+
+.navbar a{
+    background-color: orangered;
+    color: azure;
+    padding: 0px 40px;
+    display: inline-block;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar a:hover{
+    color: rgb(3, 3, 3);
+    background-color: orangered;
+}
+
+.container{
+    width: 100%;
+    height: 35vh;
+    background-image: url("https://image.freepik.com/foto-gratis/fondos-abstractos-desenfoque-movimiento_37416-158.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    justify-content: center;
+}
+
+.container .row .col-100 a img{
+    margin-top: 20%;
+    width: auto;
+    justify-content: center;
+    height: 20vh;
+}
+/* --------------------------fin de header--------------------------*/
+
+/* --------------------inicio del main-------------------------------- */
+
+/* ----- inicio de section 0------- */
+.container0{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 45px;
+}
+
+.container0 .row{  
+    width: 100%;
+    height: 90vh;
+    background-image: url("https://www.auteco.com.co/wp-content/uploads/2020/07/Familia-duke-de-ktm-las-companeras-perfectas-para-el-entorno-urbano.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;    
+}
+
+.container0 .row .col-100{
+    width: 100%;
+    justify-content: right;
+    flex-direction: column;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.container0 .row .col-100 h2{
+    text-align: center;
+    margin-top: 180px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    color: rgb(197, 197, 197);
+}
+
+.container0 .row .col-100 h4{
+    text-align: center;
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: rgb(255, 98, 41);
+    -webkit-text-stroke: 1px black;
+}
+/* -------fin de section 0------- */
+
+
+/* -------inicio de section 1-------*/
+.container1{
+    width: 100%;
+    height: 60vh;
+    background-color: rgb(20, 29, 29);
+    border-top: 65px solid orangered;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: -33px;
+ }
+
+ .col:nth-child(1) { 
+     width: 25%;
+     background-image: url("https://www.motofichas.com/images/cache/01-ktm-790-duke-2018-naranja-perfil-739-a.jpg");
+     background-position: center;
+     background-size: auto 100%;
+     height: 50vh;
+     margin: 10px;
+     border-radius: 15px 15px 0px 0px;
+ }
+
+ .col:nth-child(2) { 
+    width: 25%;
+    background-image: url("https://motos-b60.kxcdn.com/sites/default/files/ktm-890-duke-r-2020.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.col:nth-child(3) { 
+    width: 25%;
+    background-image: url("https://motos-b60.kxcdn.com/sites/default/files/ktm-1290-super-duke-r-2020.jpg");
+    background-position: center;
+    background-size: auto 100%;
+    height: 50vh;
+    margin: 10px;
+    border-radius: 15px 15px 0px 0px;
+}
+
+.col h2{
+    background-color: rgba(0, 0, 0, 0.5);
+    color: azure;
+    font-size: 1.7rem;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.col button{
+    width: 100%;
+    border: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.5rem;
+    background-color: orangered;
+    color: azure;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 200px;
+}
+
+.col button:hover{
+    background-color: azure;
+    color: orangered;
+    cursor: pointer;
+}
+
+/* -------Fin de section 1------- */
+
+
+/* -------Inicio de section 2------- */
+.container2{
+    background-color: rgb(20, 29, 29);
+    width: 100%;
+    text-align: center;
+}
+
+.text p{
+    color: azure;
+    margin-top: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.text h1{
+    color: azure;
+    margin-top: -10px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.row1{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+
+.col1{
+    width: 20%;
+}
+
+.row1 .col1:nth-child(1){
+    width: 25%;
+}
+.row1 .col1:nth-child(2){
+    width: 25%;
+}
+.row1 .col1:nth-child(3){
+    width: 25%;
+}
+
+.row1 .col1 figure{
+    margin: 0px;
+    padding: 0px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+.row1 .col1 figure img{
+    width: 70%;
+    border-radius: 10px 10px;
+}
+
+.row1 .col1 div{
+    margin-top: 30px;
+}
+
+.row1 .col1 div a{
+    text-decoration: none;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: orangered;
+    font-size: 1.1rem;
+}
+.row1 .col1 div p{
+    color: azure;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: -1px;
+}
+/* -------Fin de section 2------- */
+
+
+/* -------inicio de section 3------- */
+.container3{
+    width: 100%;
+    height: 50vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container3 .row2{
+    width: 90%;
+    height: 40vh;
+    background-image: url("https://i.pinimg.com/736x/ea/cd/f4/eacdf46b89fb62a6124967f86760b961.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.container3 .row2 .col-100{
+    width: 100%;
+    height: 100%;
+    background-color: rgb(0, 0, 0,0.3);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container3 .row2 .col-100 h2{
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2.4rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.container3 .row2 .col-100 h4{
+    margin-top: 0px;
+    margin-bottom: 20px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+}
+
+.container3 .row2 .col-100 div input{
+    padding: 5px 30px;
+    border-radius: 15px;
+    border: none;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    margin-right: 10px;
+}
+
+.container3 .row2 .col-100 div button{
+    padding: 5px 30px;
+    border-radius: 15px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: rgb(22, 39, 39);
+    color: azure;
+}
+
+.container3 .row2 .col-100 div button:hover{
+    color: rgb(22, 39, 39);
+    background-color: azure;
+}
+/* -------fin de section 3------- */
+
+
+/* -------Inicio de section 4------- */
+.container4{
+    width: 100%;
+    height: 100vh;
+    background-image: url("https://www.revistaturbo.com/sites/default/files/ktm.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+.row3{
+    width: 100%;
+    height: 100vh;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.col-60{
+    width: 60%;
+    height: 60vh;
+    padding-top: 18%;
+    margin-left: 50px;
+}
+
+.col-60 h2{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
+    margin-top: 0px;
+    color:  rgb(255, 208, 0);
+    transition: ease-in-out 0.7s;
+}
+
+.col-60 h2:hover{
+    transform: translate(50px);
+}
+
+.col-60 p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 2.4rem;
+    margin-top: 0px;
+    color: azure;
+}
+
+.col-60 button{
+    width: 30%;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: chocolate;
+    color: azure;
+    transition: all 0.7s;
+}
+
+.col-60 button:hover{
+    background-color: azure;
+    color: chocolate;
+    transform: rotate(360deg);
+} 
+/* -------Fin de section 4------- */
+
+/* -------Inicio de Section 5------- */
+.container5{
+    width: 100%;
+    height: 100vh;
+    background-color: rgb(20, 29, 29);
+}
+
+.container5 .row4:nth-child(1){
+    width: 80%;
+    height: 50vh;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.container5 .row4:nth-child(1) .col-30{
+    width: 30%;
+    height: 45vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container5 .row4:nth-child(1) .col-30 div:nth-child(1){
+    width: 80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.container5 .row4:nth-child(1) .col-30 div:nth-child(1) svg{
+    width: 3rem;
+    height: 3rem;
+    background-color: azure;
+    border-radius: 50%;
+    padding: 10px;
+    color: rgb(34, 33, 33);
+}
+
+.container5 .row4:nth-child(1) .col-30 div:nth-child(1) svg{
+    background-color: azure;
+    color: orangered;
+}
+
+.container5 .row4:nth-child(1) .col-30 div:nth-child(2){
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container5 .row4:nth-child(1) .col-30 div:nth-child(2) h2{
+    color: azure;
+    font-size: 1.3rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.container5 .row4:nth-child(1) .col-30 div:nth-child(2) p{
+    color: azure;
+    font-size: 0.8rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container5 .row4:nth-child(1) .col-30 div:nth-child(2) a{
+    color: azure;
+    font-size: 1.3rem;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    text-decoration: none;
+    margin: 0 auto;
+}
+
+.container5 .row4:nth-child(2){
+    width: 80%;
+    height: 45vh;
+    background-color: orangered;
+    margin: 0 auto;
+    border-radius: 15px;
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.container5 .row4:nth-child(2) .col-100{
+    width: 80%;
+    height: 40vh;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container5 .row4:nth-child(2) .col-100 h2{
+    color: azure;
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+
+.container5 .row4:nth-child(2) .col-100 h4{
+    color: rgb(12, 14, 24);
+    font-size: 1.5rem;
+    font-weight: 700;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    margin: -20px;
+    margin-bottom: 20px;
+}
+
+.container5 .row4:nth-child(2) .col-100 p{
+    color: azure;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    margin: 0px;
+}
+
+.container5 .row4:nth-child(2) .col-100 button{
+    margin-top: 20px;
+    padding: 5px 30px;
+    border-radius: 15px;
+    outline: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background-color: rgb(22, 39, 39);
+    color: azure;
+}
+
+.container5 .row4:nth-child(2) .col-100 button:hover{
+    color: rgb(22, 39, 39);
+    background-color: azure;
+}
+/* -------Fin de Section 5------- */
+
+
+/* --------------------------Footer----------------------------- */
+
+footer{
+    margin-top: 2%;
+    width: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-image: url("https://image.freepik.com/foto-gratis/fondos-abstractos-desenfoque-movimiento_37416-158.jpg");
+}
+
+footer .row{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+footer .row .col-30{
+    width: 20em;
+}
+
+footer .row .col-30:nth-child(1) ul{
+    width: 80%;
+    padding-left: 0px;
+    margin-left: 20%;
+}
+
+footer .row .col-30 ul h2{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: azure;
+}
+
+footer .row .col-30:nth-child(1) ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: azure;
+}
+
+footer .row .col-30:nth-child(1) ul li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+footer .row .col-30:nth-child(2) ul{
+    width: 100%;
+    padding-left: 0px;
+}
+
+footer .row .col-30:nth-child(2) ul li{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: azure;
+}
+
+footer .row .col-30:nth-child(2) ul li:hover{
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+
+footer .row .col-30:nth-child(3) h2{
+    list-style: none;
+    padding: 5px 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.3rem;
+    color: azure;
+}
